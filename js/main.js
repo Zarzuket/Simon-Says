@@ -22,9 +22,10 @@ var arrNUtente = [];
 
 for (var i=0; i<5; i++){
     var numeroUtente = parseInt(prompt("inserisci i numeri"));
-    arrNUtente.push(numeroUtente);
+    if (arrNRandom.includes(numeroUtente)){
+        arrNUtente.push(numeroUtente);
+    }
+    
 }
 
-console.log(arrNUtente);
-console.log(arrNRandom);
-
+alert("hai indovinato " + arrNUtente.length + "numeri, sono: " + arrNUtente);
