@@ -15,10 +15,7 @@ for(var i=0; i<5; i++){
 alert(arrNRandom);
 
 setTimeout(function(){
-
-},1000);
-
-var arrNUtente = [];
+    var arrNUtente = [];
 
 for (var i=0; i<5; i++){
     var numeroUtente = parseInt(prompt("inserisci i numeri"));
@@ -28,4 +25,7 @@ for (var i=0; i<5; i++){
     
 }
 
-alert("hai indovinato " + arrNUtente.length + "numeri, sono: " + arrNUtente);
+alert("hai indovinato " + arrNUtente.length + " numeri, sono: " + arrNUtente);
+
+},30000);
+
